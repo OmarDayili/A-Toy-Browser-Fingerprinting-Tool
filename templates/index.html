@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Browser Fingerprinting</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    <img src="../static/UofG.png" alt="Logo" class="formbold-logo"  >
+    <div class="formbold-main-wrapper-home">
+        <div class="formbold-form-wrapper">
+            <div class="formbold-form-title">
+                <h2>Welcome to the Browser Fingerprinting Tool</h2>
+                <p>Click the button below to get your browser fingerprint</p>
+            </div>
+            <form action="/fingerprint" method="post">
+                <div class="formbold-input-flex">
+                    <div>
+                        <input type="hidden" name="hidden" value="hidden" class="formbold-form-input"/>
+                    </div>
+                </div>
+                <button class="formbold-btn">Get Fingerprint</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

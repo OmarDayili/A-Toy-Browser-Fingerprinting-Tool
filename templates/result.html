@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fingerprint Result</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    <img src="../static/UofG.png" alt="Logo" class="formbold-logo">
+    <div class="formbold-main-wrapper">
+        <div class="formbold-form-wrapper">
+            <div class="formbold-form-title">
+                <h2>Browser Fingerprint Result</h2>
+            </div>
+            <div class="formbold-input-flex">
+                <div>
+                    <label for="fingerprint" class="formbold-form-label">Fingerprint</label>
+                    <input type="text" id="fingerprint" value="{{ fingerprint }}" readonly class="formbold-form-input"/>
+                </div>
+            </div>
+            <div class="formbold-input-flex">
+                <div>
+                    <label for="user_agent" class="formbold-form-label">User Agent</label>
+                    <input type="text" id="user_agent" value="{{ user_agent }}" readonly class="formbold-form-input"/>
+                </div>
+            </div>
+            <div class="formbold-input-flex">
+                <div>
+                    <label for="accept" class="formbold-form-label">Accept Header</label>
+                    <input type="text" id="accept" value="{{ accept }}" readonly class="formbold-form-input"/>
+                </div>
+            </div>
+            <div class="formbold-input-flex">
+                <div>
+                    <label for="languages" class="formbold-form-label">Accepted Languages</label>
+                    <input type="text" id="languages" value="{{ languages }}" readonly class="formbold-form-input"/>
+                </div>
+            </div>
+            <div class="formbold-input-flex">
+                <div>
+                    <label for="platform_info" class="formbold-form-label">Platform Info</label>
+                    <input type="text" id="platform_info" value="{{ platform_info }}" readonly class="formbold-form-input"/>
+                </div>
+            </div>
+            <form action="/">
+                <button class="formbold-btn">Back</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
