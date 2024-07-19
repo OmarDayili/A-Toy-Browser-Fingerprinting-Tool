@@ -1,4 +1,4 @@
-# a toy Browser Fingerprinting Tool
+# A Toy Browser Fingerprinting Tool
 
 ## Project Description
 This project is a toy web browser fingerprinting tool that helps understand the basic concepts of web browser fingerprinting. It collects a small number of attributes from the user's browser and generates a unique fingerprint using sha-256.
