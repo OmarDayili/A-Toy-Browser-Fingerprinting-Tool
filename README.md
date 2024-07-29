@@ -11,7 +11,7 @@ This project is a toy web browser fingerprinting tool that helps understand the 
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/Cyberomar/A-Toy-Browser-Fingerprinting-Tool.git
+    git clone https://github.com/OmarDayili/A-Toy-Browser-Fingerprinting-Tool.git
     cd A-Toy-Browser-Fingerprinting-Tool
     ```
 
