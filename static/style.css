@@ -23,14 +23,6 @@ body {
   top: 45px;
 }
 
-.formbold-logo {
-  position: absolute;
-  top: 38px;
-  left: 40px;
-  width: 210px;
-}
-
-
 .formbold-form-wrapper-home {
   margin: 0 auto;
   max-width: 1200px;
@@ -169,4 +161,35 @@ body {
 }
 #supportCheckbox:checked ~ div span {
   opacity: 1;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  top: 10px;
+}
+
+.nca-logo {
+  position: absolute;
+  top: -11px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 344px;
+}
+
+.kaust-logo {
+  position: absolute;
+  top: 21px;
+  left: 40px;
+  width: 248px;
+}
+
+.UofG-logo {
+  position: absolute;
+  top: 50px;
+  right: 90px;
+  width: 252px;
 }
